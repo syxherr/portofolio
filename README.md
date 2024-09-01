@@ -16,7 +16,7 @@ To learn more about me and view my complete portfolio, visit [my Portfolio](http
 You can reach me via [Email](shaskiapdv@gmail.com) or visit my [LinkedIn](www.linkedin.com/in/shaskia-putri-devi) for further connections.
 
 <br>
-<br>
+<hr>
 <br>
 
 # Portofolio Saya
