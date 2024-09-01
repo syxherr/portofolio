@@ -5,7 +5,7 @@ I am a student at Universitas Teknologi Bandung, majoring in Informatics Enginee
 currently in my 7th semester. I am deeply dedicated to programming,
 with a strong interest in mobile development, web development, and Arduino.
 
-To learn more about me and view my complete portfolio, visit [my portfolio here](https://syxherr.github.io/portofolio/).
+To learn more about me and view my complete portfolio, visit [my Portfolio](https://syxherr.github.io/portofolio/) here.
 
 ## Projects in This Repository
 - **FinFix (Android)**: A mobile application designed to track user expenses by utilizing the camera to capture images of shopping receipts.
@@ -13,7 +13,10 @@ To learn more about me and view my complete portfolio, visit [my portfolio here]
 - **Parking System (Arduino)**: This project is an Arduino-based parking barrier system designed to grant or deny access based on the UID on the card.
 
 ## Contact
-You can reach me via [email](shaskiapdv@gmail.com) or visit my [LinkedIn](www.linkedin.com/in/shaskia-putri-devi) for further connections.
+You can reach me via [Email](shaskiapdv@gmail.com) or visit my [LinkedIn](www.linkedin.com/in/shaskia-putri-devi) for further connections.
+
+
+
 
 
 # Portofolio Saya
@@ -22,7 +25,7 @@ Saya adalah seorang mahasiswa di Universitas Teknologi Bandung, jurusan Teknik I
 saat ini berada di semester 7. Saya sangat berdedikasi dalam pemrograman,
 dengan minat yang kuat pada pengembangan mobile, pengembangan web, dan Arduino.
 
-Untuk mengetahui lebih lanjut tentang saya dan melihat portofolio lengkap, kunjungi [portofolio saya di sini](https://syxherr.github.io/portofolio/).
+Untuk mengetahui lebih lanjut tentang saya dan melihat portofolio lengkap, kunjungi [Portofolio saya](https://syxherr.github.io/portofolio/) di sini.
 
 ## Proyek di Repository Ini
 - **FinFix (Android)**: Aplikasi mobile yang dirancang untuk melacak pengeluaran pengguna dengan memanfaatkan kamera untuk mengambil gambar struk belanja.
@@ -31,4 +34,4 @@ Untuk mengetahui lebih lanjut tentang saya dan melihat portofolio lengkap, kunju
 
 
 ## Kontak
-Anda dapat menghubungi saya melalui [email](shaskiapdv@gmail.com) atau mengunjungi [LinkedIn saya](www.linkedin.com/in/shaskia-putri-devi) untuk koneksi lebih lanjut.
+Anda dapat menghubungi saya melalui [Email](shaskiapdv@gmail.com) atau mengunjungi [LinkedIn saya](www.linkedin.com/in/shaskia-putri-devi) untuk koneksi lebih lanjut.
