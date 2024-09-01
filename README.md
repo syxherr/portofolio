@@ -15,9 +15,9 @@ To learn more about me and view my complete portfolio, visit [my Portfolio](http
 ## Contact
 You can reach me via [Email](shaskiapdv@gmail.com) or visit my [LinkedIn](www.linkedin.com/in/shaskia-putri-devi) for further connections.
 
-
-
-
+<br>
+<br>
+<br>
 
 # Portofolio Saya
 Selamat datang di portfolio sya! Repository ini berisi proyek-proyek yang telah saya kerjakan sebagai bagian dari portofolio saya. Di sini, Anda dapat menemukan berbagai proyek yang mencerminkan keterampilan dan minat saya di bidang teknologi informasi, termasuk pengembangan web, pengembangan aplikasi mobile, dan proyek berbasis Arduino.
