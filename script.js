@@ -20,7 +20,7 @@ window.onscroll = () => {
             navLinks.forEach(links => {                
                 links.classList.remove('active');
             });
-            document.querySelector('header nav a[href*="' + id + '"]').classList.add('active');
+            document.querySelector('header nav a[href*=' + id + ' ]').classList.add('active');
         }
     });
 
@@ -38,12 +38,16 @@ ScrollReveal({
     delay: 200
 });
 
-ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.heading, .timeline-content, .profile-img, .home-content h4', { origin: 'top' });
+ScrollReveal().reveal('.home-content , .timeline-items, .project-container, .tools-container', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content h1, .home-content a ', { origin: 'right' });
+ScrollReveal().reveal('.home-content p ', { origin: 'left' });
 
-const typed = new Typed('.role', {
-    strings: ['Shaskia','FrontEnd Web Developer', 'Mobile Developer'],
-    typeSpeed: 100,
-    backSpeed: 100,
-    backDelay: 100,
+
+const typed = new Typed('.multipe-text', {
+    strings: ['Mobile Developer', 'Front-End Developer' ],
+    typeSpeed: 105,
+    backSpeed: 105,
+    backDelay: 1075,
     loop: true
 });
