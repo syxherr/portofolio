@@ -13,7 +13,7 @@ To learn more about me and view my complete portfolio, visit [my Portfolio](http
 - **Parking System (Arduino)**: This project is an Arduino-based parking barrier system designed to grant or deny access based on the UID on the card.
 
 ## Contact
-You can reach me via [Email](shaskiapdv@gmail.com) or visit my [LinkedIn](www.linkedin.com/in/shaskia-putri-devi) for further connections.
+You can reach me via Email: shaskiapdv@gmail.com or visit my [LinkedIn](www.linkedin.com/in/shaskia-putri-devi) for further connections.
 
 <br>
 <hr>
@@ -34,4 +34,4 @@ Untuk mengetahui lebih lanjut tentang saya dan melihat portofolio lengkap, kunju
 
 
 ## Kontak
-Anda dapat menghubungi saya melalui [Email](shaskiapdv@gmail.com) atau mengunjungi [LinkedIn saya](www.linkedin.com/in/shaskia-putri-devi) untuk koneksi lebih lanjut.
+Anda dapat menghubungi saya melalui Email: shaskiapdv@gmail.com atau mengunjungi [LinkedIn saya](www.linkedin.com/in/shaskia-putri-devi) untuk koneksi lebih lanjut.
