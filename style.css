@@ -158,8 +158,8 @@ box-shadow:
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 5rem;
+    height: 5rem;
     background: var(--second-bg-color);
     border-radius: 50%;
     font-size: 3rem;
@@ -617,6 +617,12 @@ nav{
 
     .footer{
         padding: 2rem 3%;
+    }
+    .sosmed a {
+        width: 4rem;
+        height: 4rem;
+        margin: 0.5rem;
+    
     }
 }
 
