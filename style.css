@@ -19,6 +19,13 @@
     margin: 4rem 0;
 }
 
+.heading-tools{
+    top: 0;
+    text-align: center;
+    font-size: 4.5rem;
+    margin: 4rem 0;
+}
+
 :root{
     --bg-color: #0F0F0F;
     --second-bg-color: #1d1d1f;
@@ -127,7 +134,7 @@ section{
 .home-content p {
     font-size: 1.8rem;
     margin-top: 1rem;
-    margin-right: auto;
+    margin-right: 10rem;
 }
 
 .home-content h3:nth-of-type(2){
@@ -165,9 +172,9 @@ box-shadow:
     border-radius: 50%;
     font-size: 3rem;
     color: var(--main-color);
-    margin: 0 0 0 1rem;
+    margin: .5rem 1rem 0;
     transition: 0.3s ease-in-out;
-
+    margin-bottom: 1.5rem;
 }
 
 .sosmed a:hover {

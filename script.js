@@ -32,16 +32,15 @@ window.onscroll = () => {
 };
 
 ScrollReveal({
-    reset: true,
     distance: '80px',
     duration: 2000,
     delay: 200
 });
 
 ScrollReveal().reveal('.heading, .timeline-content, .profile-img, .home-content h4, .contact-container', { origin: 'top' });
-ScrollReveal().reveal('.home-content , .timeline-items, .project-container, .tools-container, .contact h2', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, .home-content a ', { origin: 'right' });
-ScrollReveal().reveal('.home-content p ', { origin: 'left' });
+ScrollReveal().reveal('.home-content , .timeline-items, .project-container, .contact h2', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content h1, .home-content a, .tools h2 ', { origin: 'right' });
+ScrollReveal().reveal('.home-content p, .tools-container ', { origin: 'left' });
 
 
 const typed = new Typed('.multipe-text', {
