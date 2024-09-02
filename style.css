@@ -34,6 +34,7 @@ html{
 body {
     background: var(--bg-color);
     color: var(--text-color);
+    overflow-x: hidden;
 }
 
 section{
@@ -126,7 +127,7 @@ section{
 .home-content p {
     font-size: 1.8rem;
     margin-top: 1rem;
-    margin-right: 10rem;
+    margin-right: auto;
 }
 
 .home-content h3:nth-of-type(2){
@@ -580,7 +581,7 @@ nav{
 }
 @media (max-width:991px){
     .header{
-        padding: 2rem 3%;
+        padding: 1rem 3%;
     }
     section {
         padding: 7.5rem 5% 2rem;
@@ -624,6 +625,7 @@ nav{
         margin: 0.5rem;
     
     }
+    
 }
 
 @media (max-width:768px){
@@ -649,16 +651,9 @@ nav{
         display: block;
         font-size: 2rem;
         color: #edeef0;
-        margin: 3rem 0;
     }
 
-    .home{
-        flex-direction: column-reverse;
-        margin-bottom: 7.5rem;
-    }
-    .education{
-        margin-bottom: 3rem;
-    }
+    
     .home-content h3{
         font-size: 2.6rem;
     }
@@ -671,9 +666,16 @@ nav{
         font-size: 5rem;
         
     }
+    .home{
+        flex-direction: column-reverse;
+        margin-bottom: 7.5rem;
+    }
+    .education{
+        margin-bottom: 3rem;
+    }
 
     .home-content p {
-        margin-right: 5rem;
+        margin-right: 0 auto;
     }
     
     .profile-img img{
@@ -745,7 +747,7 @@ nav{
     font-size: 1.6rem;
     margin: .3rem 0 1rem;
 } */
-
+/* 
 .kotak{
     width: 100%;
     max-width: 600px;
@@ -786,4 +788,4 @@ button{
     font-size: 16px;
     cursor: pointer;
     border-radius: 10px;
-}
+} */
