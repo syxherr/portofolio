@@ -37,7 +37,7 @@ body {
 
 section{
     min-height: 100vh;
-    padding: 10rem 9% 2rem;
+    padding: 9rem 9% 1.5rem;
 }
 
 .header{
@@ -96,7 +96,7 @@ section{
     align-items: baseline;
     text-align: left;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-right: 0rem;
 }
 
@@ -268,6 +268,8 @@ nav{
 
  .project-container{
     display: grid;
+    height: 55px;
+    
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 3rem;
@@ -335,7 +337,7 @@ nav{
     position: absolute;
     margin-top: 15px;
     width: 5px;
-    height: 68%;
+    height: 70%;
     background-color: var(--main-color);
     left: calc(50% - 0.5px);
 }
@@ -412,7 +414,7 @@ nav{
 }
 
 .tools{
-    padding: 130px;
+    padding-bottom: 100px;
     background-color: var(--second-bg-color);
 }
 
@@ -448,6 +450,7 @@ nav{
  .contact{
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 50px;
 }
 
 .contatti{
@@ -535,11 +538,13 @@ nav{
         padding: 2rem 3%;
     }
     section {
-        padding: 5rem 3% 7rem;
+        padding: 3rem 2.5% 1.5rem;
+        
     }
     
     .timeline-items::before{
         left: 10px;
+        height: 70%;
     }
 
     .timeline-item:nth-child(odd){
@@ -557,7 +562,7 @@ nav{
     }
 
     .footer{
-        padding: 2rem 3%;
+        padding: 1rem 3%;
     }
 }
 
@@ -589,9 +594,11 @@ nav{
 
     .home{
         flex-direction: column-reverse;
-        margin: 8rem 2.6rem;
+        margin-bottom: 3rem;
     }
-
+    .education{
+        margin-bottom: 3rem;
+    }
     .home-content h3{
         font-size: 2.6rem;
     }
@@ -607,12 +614,11 @@ nav{
 
     .home-content p {
         max-width: 600px;
-        margin-top: 2rem;
     }
     .profile-img img{
         width: 35vw;
-        top: 4rem;
-        margin-bottom: 5rem;
+        top: 7rem;
+        margin-bottom: 8rem;
     }
 }
 
