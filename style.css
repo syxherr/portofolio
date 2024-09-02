@@ -158,8 +158,8 @@ box-shadow:
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 5rem;
-    height: 5rem;
+    width: 4.5rem;
+    height: 4.5rem;
     background: var(--second-bg-color);
     border-radius: 50%;
     font-size: 3rem;
@@ -180,7 +180,6 @@ box-shadow:
 .sosmed p {
     justify-content: center;
     align-items: center;
-    margin-bottom: 1rem;
     font-size: 20px; /* Ukuran font paragraf (sesuaikan sesuai kebutuhan) */
 }
 
