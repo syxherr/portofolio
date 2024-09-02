@@ -673,8 +673,9 @@ nav{
     }
 
     .home-content p {
-        max-width: 450px;
+        margin-right: 5rem;
     }
+    
     .profile-img img{
         width: 45vw;
         top: 5rem;
