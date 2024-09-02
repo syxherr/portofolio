@@ -5,7 +5,7 @@ I am a student at Universitas Teknologi Bandung, majoring in Informatics Enginee
 currently in my 7th semester. I am deeply dedicated to programming,
 with a strong interest in mobile development, web development, and Arduino.
 
-Check out my [Portfolio](https://syxherr.github.io/portofolio/).
+Check out my [Portofolio](https://syxherr.github.io/portofolio/).
 
 ## Projects in This Repository
 - **FinFix (Android)**: A mobile application designed to track user expenses by utilizing the camera to capture images of shopping receipts.
@@ -13,8 +13,8 @@ Check out my [Portfolio](https://syxherr.github.io/portofolio/).
 - **Parking System (Arduino)**: This project is an Arduino-based parking barrier system designed to grant or deny access based on the UID on the card.
 
 ## Contact
-You can reach me via [Email](shaskiapdv@gmail.com) or visit my [LinkedIn](https://www.linkedin.com/in/shaskia-putri-devi/) for further connections.
-
+You can reach me via Email: shaskiapdv@gmail.com or visit my [LinkedIn](https://www.linkedin.com/in/shaskia-putri-devi/) for further connections.
+<br>
 <hr>
 
 # Portofolio Saya
