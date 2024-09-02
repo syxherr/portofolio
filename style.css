@@ -104,7 +104,6 @@ section{
 .profile-img img{
     position: relative;
     width: 20vw;
-    margin-left: 10rem;
     border-radius: 5rem;
     box-shadow: 0 0 25px var(--main-color);
 }
@@ -127,7 +126,7 @@ section{
 .home-content p {
     font-size: 1.8rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-right: 10rem;
 }
 
 .home-content h3:nth-of-type(2){
@@ -657,12 +656,13 @@ nav{
     }
 
     .home-content p {
-        max-width: 600px;
+        max-width: 450px;
     }
     .profile-img img{
-        width: 35vw;
-        top: 7rem;
-        right: 17rem;
+        width: 45vw;
+        top: 5rem;
+        right: 1rem;
+        border-radius: 50%;
         margin-bottom: 8rem;
     }
     .project h3{
