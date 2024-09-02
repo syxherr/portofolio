@@ -38,8 +38,8 @@ ScrollReveal({
     delay: 200
 });
 
-ScrollReveal().reveal('.heading, .timeline-content, .profile-img, .home-content h4', { origin: 'top' });
-ScrollReveal().reveal('.home-content , .timeline-items, .project-container, .tools-container', { origin: 'bottom' });
+ScrollReveal().reveal('.heading, .timeline-content, .profile-img, .home-content h4, .contact-container', { origin: 'top' });
+ScrollReveal().reveal('.home-content , .timeline-items, .project-container, .tools-container, .contact h2', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content h1, .home-content a ', { origin: 'right' });
 ScrollReveal().reveal('.home-content p ', { origin: 'left' });
 

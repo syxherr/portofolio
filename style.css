@@ -16,6 +16,7 @@
     top: 0;
     text-align: center;
     font-size: 4.5rem;
+    margin: 4rem 0;
 }
 
 :root{
@@ -37,7 +38,7 @@ body {
 
 section{
     min-height: 100vh;
-    padding: 9rem 9% 1.5rem;
+    padding: 10rem 12% 10rem;
 }
 
 .header{
@@ -98,7 +99,6 @@ section{
     text-align: left;
     justify-content: center;
     margin-top: 1rem;
-    margin-right: 0rem;
 }
 
 .profile-img img{
@@ -119,15 +119,15 @@ section{
 }
 
 .home-content h1{
-    font-size: 5.7rem;
+    font-size: 5rem;
     font-weight: 700;
     line-height: 1.3
 }
 
 .home-content p {
     font-size: 1.8rem;
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .home-content h3:nth-of-type(2){
@@ -250,12 +250,6 @@ nav{
     text-decoration: none;
 }
 
-.heading{
-    text-align: center;
-    font-size: 4.5rem;
-}
-
-
 .project h2 {
     margin-bottom: 4rem;
 }
@@ -335,14 +329,6 @@ nav{
     margin: 1rem 0 3rem;
  }
 
- .contact a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background: var(--second-bg-color);
-}
-
 
  .education{
     padding: 100px 15px;
@@ -350,7 +336,7 @@ nav{
 }
 
 .education h2{
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 
 .timeline-items{
@@ -448,12 +434,15 @@ nav{
     background-color: var(--second-bg-color);
 }
 
+.tools h2 {
+    margin-bottom: 4rem;
+}
+
 .tools-container{
-    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
-    gap: 3rem;
+    gap: 4.5rem;
  }
  
  .tools-container .tools-box {
@@ -462,7 +451,7 @@ nav{
     padding: 2rem 3rem;
     border-radius: 2rem;
     text-align: center;
-    border: .2rem solid var(--bg-color);
+    border: .5rem solid var(--bg-color);
     transition: .5s ease;
  }
 
@@ -477,10 +466,24 @@ nav{
     border-radius: 2rem;
  }
 
+ .contact a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--second-bg-color);
+}
+
+.heading-contact{
+    top: 0;
+    text-align: center;
+    font-size: 4.5rem;
+    margin-top: 1rem;
+}
+
  .contact{
     justify-content: center;
+    min-height: 75vh;
     flex-direction: column;
-    padding-bottom: 50px;
 }
 
 .contatti{
@@ -489,14 +492,15 @@ nav{
 }
 
 .contact-upper-container{
-    margin-top: 15rem;
+    margin-top: 5rem;
 }
+
 .contact-container{
     display: flex;
     align-items: center;
     justify-content: left;
-    gap: 0.5rem;
     margin-bottom: 1rem;
+    
 }
 
 .contact-container p {
@@ -569,7 +573,7 @@ nav{
         padding: 2rem 3%;
     }
     section {
-        padding: 8rem 5% 2rem;
+        padding: 7.5rem 5% 2rem;
         
     }
     
@@ -592,9 +596,13 @@ nav{
         left: 0;
     }
     .project {
-        padding-bottom: 7rem;
+        padding-bottom: 7.5rem;
         padding-left: 4rem;
         padding-right: 4rem;
+    }
+
+    .tools {
+        padding-bottom: 7.5rem;
     }
 
     .footer{
@@ -630,7 +638,7 @@ nav{
 
     .home{
         flex-direction: column-reverse;
-        margin-bottom: 3rem;
+        margin-bottom: 7.5rem;
     }
     .education{
         margin-bottom: 3rem;
