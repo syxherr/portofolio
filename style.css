@@ -530,7 +530,7 @@ nav{
     justify-content: center;
     min-height: 65vh;
     flex-direction: column;
-    background-color: #31363F;
+    background-color: #1E201E;
 }
 
 .contatti{
@@ -546,7 +546,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: left;
-    margin-bottom: 1rem;
     
 }
 
