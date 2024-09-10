@@ -192,6 +192,9 @@ box-shadow:
     font-size: 20px; /* Ukuran font paragraf (sesuaikan sesuai kebutuhan) */
 }
 
+
+
+
 span{
     color: var(--main-color);
 }
@@ -214,6 +217,7 @@ span{
     border-radius: 2rem;
     font-size: 1.6rem;
     margin-top: 1rem;
+    margin-right: 1rem;
     color: var(--second-bg-color);
     letter-spacing: .1rem;
     font-size: 600;
@@ -680,6 +684,7 @@ nav{
         margin: 0.5rem;
     
     }
+    
     
 }
 
