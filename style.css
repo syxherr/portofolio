@@ -710,6 +710,7 @@ nav{
     .navbar a{
         display: block;
         font-size: 2rem;
+        padding-bottom: 1.5rem;
         color: #edeef0;
     }
 
