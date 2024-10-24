@@ -533,7 +533,7 @@ nav{
 
  .contact{
     justify-content: center;
-    min-height: 65vh;
+    min-height: 75vh;
     flex-direction: column;
     background-color: #1E201E;
 }
