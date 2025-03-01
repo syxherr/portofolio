@@ -265,13 +265,6 @@ nav{
 .project h2 {
     margin-bottom: 4rem;
 }
- .project-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 4rem;
- }
 
  .project-container{
     display: flex;
