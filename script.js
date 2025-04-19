@@ -45,7 +45,7 @@ ScrollReveal().reveal('.home-content p, .tools-container, .skills h2  ', { origi
 
 
 const typed = new Typed('.multipe-text', {
-    strings: ['Mobile Developer', 'QA Tester', 'Front-End Developer'],
+    strings: ['Mobile Developer', 'Quality Assurance'],
     typeSpeed: 105,
     backSpeed: 105,
     backDelay: 1075,
