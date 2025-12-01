@@ -110,6 +110,7 @@ section{
     margin-top: 1rem;
 }
 
+
 .profile-img img{
     position: relative;
     width: 20vw;
@@ -215,18 +216,44 @@ span{
     display: inline-block;
     padding: 1rem 2.8rem;
     background: var(--main-color);
-    border-radius: 2rem;
-    font-size: 1.6rem;
+    border-radius: 5px;
     margin-top: 1rem;
     margin-right: 1rem;
     color: var(--second-bg-color);
     letter-spacing: .1rem;
     font-size: 600;
+    font-size: 1.6rem;
     transition: .5s ease;
     box-shadow: 0 0 1rem var(--bg-color);
 }
 
+
+
 .btn:hover {
+    color: var(--text-color) ;
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+
+.button2{
+    margin-top: 10px;
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem; 
+    text-align: center;
+    width: 230px;
+    font-size: 600;
+    font-size: 1.6rem;
+    transition: .5s ease;
+    box-shadow: 0 0 1rem var(--bg-color);
+}
+
+.button2:hover {
     color: var(--text-color) ;
     box-shadow: 0 0 1rem var(--main-color);
 }
@@ -277,12 +304,12 @@ nav{
 
  .project{
     padding-bottom: 100px;
-    background-color: var(--bg-color);
+    background-color: var(--second-bg-color);
 }
 
  .project-container .project-box {
     flex: 1 1 28rem;
-    background-color: var(--second-bg-color);
+    background-color: var(--bg-color);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
@@ -333,7 +360,7 @@ nav{
     position: absolute;
     margin-top: 10px;
     width: 5px;
-    height: 70%;
+    height: 66%;
     background-color: var(--main-color);
     left: calc(50% - 0px);
 }
@@ -395,20 +422,70 @@ nav{
     font-size: 20px;
     color: #edeef0;
     line-height: 22px;
-    margin-bottom: 10px;
     font-weight: 300;
 
 }
 
 .timeline-content p{
     font-size: 17px;
+    margin-bottom: 5px;
     color: #edeef0;
     font-weight: 500;
 }
+.timeline-content ul {
+    text-align: left;
+    font-size: 15px;
+    padding-left: 20px; /* biar bullet muncul rapi */
+}
+
+.timeline-content ul li {
+    margin-bottom: 6px;
+    margin-top: 5px; /* opsional: jarak antar item */
+}
+
+.organization{   
+    flex-direction: column;
+    justify-content: center;
+    background: var(--bg-color);
+}
+
+.organization h2 {
+    padding-bottom: 4rem;
+}
+
+
+.organization h4{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.organization h3{
+    font-size: 20px;
+    color: #edeef0;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.organization p{
+    font-size: 16px;
+    color: #D0D0D0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.organization ul li {
+    margin-bottom: 6px;
+    margin-top: 5px; /* opsional: jarak antar item */
+}
+.organization ul {
+    font-size: 17px;
+    padding-left: 20px; /* biar bullet muncul rapi */
+}
+
 
 .tools{
     padding-bottom: 100px;
-    background-color: var(--second-bg-color);
+    background-color: var(--bg-color);
 }
 
 .tools h2 {
@@ -424,11 +501,11 @@ nav{
  
  .tools-container .tools-box {
     flex: 1 1 25rem;
-    background-color: var(--bg-color);
+    background-color: var(--second-bg-color);
     padding: 2rem 3rem;
     border-radius: 2rem;
     text-align: center;
-    border: .5rem solid var(--bg-color);
+    border: .5rem solid var(--second-bg-color);
     transition: .5s ease;
  }
 
@@ -446,7 +523,7 @@ nav{
 
  .skills{
     padding-bottom: 100px;
-    background-color: var(--bg-color);
+    background-color: var(--second-bg-color);
 }
 
 .skills h2 {
@@ -457,17 +534,16 @@ nav{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
-    background-color: var(--bg-color);
     gap: 4.5rem;
  }
  
  .skills-container .skills-box {
     flex: 1 1 25rem;
-    background-color: var(--second-bg-color);
+    background-color: var(--bg-color);
     padding: 2rem 3rem;
     border-radius: 2rem;
     text-align: center;
-    border: .5rem solid var(--second-bg-color);
+    border: .5rem solid var(--bg-color);
     transition: .5s ease;
  }
 
@@ -500,7 +576,7 @@ nav{
     justify-content: center;
     min-height: 75vh;
     flex-direction: column;
-    background-color: #1E201E;
+    background-color: (--bg-color);
 }
 
 .contatti{
