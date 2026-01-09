@@ -308,7 +308,8 @@ nav{
 }
 
  .project-container .project-box {
-    flex: 1 1 28rem;
+    flex: 1 1 30rem;
+    height: 45rem;
     background-color: var(--bg-color);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
@@ -360,7 +361,7 @@ nav{
     position: absolute;
     margin-top: 10px;
     width: 5px;
-    height: 66%;
+    height: 70%;
     background-color: var(--main-color);
     left: calc(50% - 0px);
 }
@@ -678,13 +679,12 @@ nav{
     
     .project-container{
     display: grid;
-    padding-bottom: 7rem;
     grid-template-columns: repeat(1, 1fr);
     margin: 0 5rem;
     align-items: center;
-    background-color: var(--bg-color);
     gap: 4.5rem;
     }
+
     
 }
 @media (max-width:991px){
@@ -698,7 +698,7 @@ nav{
     
     .timeline-items::before{
         left: 10px;
-        height: 68%;
+        height: 70%;
     }
 
     .timeline-item:nth-child(odd){
@@ -718,7 +718,9 @@ nav{
         padding-bottom: 7.5rem;
         padding-left: 4rem;
         padding-right: 4rem;
+        
     }
+
 
     .tools {
         padding-bottom: 7.5rem;
