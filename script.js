@@ -38,10 +38,10 @@ ScrollReveal({
     delay: 200
 });
 
-ScrollReveal().reveal('.heading, .timeline-content, .profile-img, .home-content h4, .contact-container, .timeline-date', { origin: 'top' });
-ScrollReveal().reveal('.timeline-content, .home-content , .timeline-items, .project-container', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, .home-content a, .tools h2, .skills-container', { origin: 'right' });
-ScrollReveal().reveal('.home-content p, .tools-container, .skills h2, .contact h2  ', { origin: 'left' });
+ScrollReveal().reveal('.heading, .timeline-content, .profile-img, .home-content h4, .timeline-date, .organization h4, .organization h3, .organization p', { origin: 'top' });
+ScrollReveal().reveal('.timeline-content, .home-content , .timeline-items, .project-container, .contact-container, .organization .button2',{ origin: 'bottom' });
+ScrollReveal().reveal('.home-content h1, .home-content a, .tools h2, .skills-container, .contact p', { origin: 'right' });
+ScrollReveal().reveal('.home-content p, .tools-container, .skills h2, .contact h2, .organization ul', { origin: 'left' });
 
 
 const typed = new Typed('.multipe-text', {

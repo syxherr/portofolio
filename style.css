@@ -575,7 +575,7 @@ nav{
 
  .contact{
     justify-content: center;
-    min-height: 75vh;
+    min-height: 80vh;
     flex-direction: column;
     background-color: (--bg-color);
 }
@@ -586,7 +586,7 @@ nav{
 }
 
 .contact-upper-container{
-    margin-top: 5rem;
+    margin-top: 1.3rem;
 }
 
 .contact-container{
@@ -601,6 +601,16 @@ nav{
     padding: 1%;
 }
 
+.contact-container h1 {
+    font-size: 1.8rem;
+    font-weight: normal;
+    padding: 1%;
+}
+
+.contact p {
+    font-size: 2rem;
+    color: #ababab;
+}
 
 .contact-icon{
     cursor: default;
